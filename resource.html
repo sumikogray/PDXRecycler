@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDX Recycler</title>
+<link href="_css/recycler.css" rel="stylesheet" type="text/css">
+<link href="_css/jquery.mobile.structure-1.3.1.min.css" rel="stylesheet">
+<link href="_css/themes/pdxrecycler.min.css" rel="stylesheet">
+<script src="_js/jquery-1.9.1.min.js"></script>
+<script src="_js/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+<!--first page-->
+<div data-role="page" id="resourcelist"  data-theme="d">
+		<div data-role="header" data-position="fixed" data-theme="e">
+   			 <a href="resource.html" data-icon="back" data-transition="fade">Back</a>
+    		<h1>Outside Recycling Sources</h1>
+			<a href="index.html" rel="external" data-icon="home" data-transition="flip">Home</a>
+    	</div>
+	<div data-role="content" >
+			<ul data-role="listview" data-inset="true" >
+                    <li data-theme="a"><h2>Hazardous Waste</h2></li>
+				<li><a href="_resource/metro_central_station.html" data-transition="slide" rel="external">Metro Central Station</a></li>
+				<li><a href="_resource/metro_south_station.html" data-transition="slide" rel="external">Metro South Station</a></li>
+			</ul>
+    	<ul data-role="listview" data-inset="true" >
+                    <li data-theme="a"><h2>Metro's garbage and recycling transfer stations</h2></li>
+				<li><a href="_resource/metro_central_transfer_station.html" data-transition="slide" rel="external">Metro Central in Northwest Portland</a></li>
+				<li><a href="_resource/metro_south_transfer_station.html" data-transition="slide" rel="external">Metro South transfer station</a></li>
+    </ul>
+    </div>
+	 	<div data-role="footer" data-position="fixed" data-id="footer"  data-theme="e">
+			<div class="footerbuttonrow">
+			<a href="index.html" rel="external" class="searchbutton" data-transition="slideup"></a>
+			<a href="index.html" rel="external" class="calendarbutton" data-transition="slideup"></a>
+			<a href="index.html" rel="external" class="bookmarkbutton" data-transition="slideup"></a>
+			<a href="index.html" rel="external" class="mapbutton" data-transition="slideup"></a>
+			</div>
+		</div>
+    </div>
+</body>
+</html>
+

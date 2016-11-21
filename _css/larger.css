@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+#infopage {
+	float:right;
+	margin: 10px 20px 0px 0px;
+	background-color: green;
+	width: 80%;
+	height:300px;
+	padding: 0px;
+}
+
+#outsideresource {
+	background-color: red;
+	float: right;
+	width: 40%;
+	height: 260px;	
+	padding: 20px;
+}
+#map {
+	margin-left:auto;
+	margin-right:auto;
+	background-color: white;;
+	width: 80%;
+	height: 120px;	
+	padding: 0px;
+}
+#recyclebuttons {
+	width: 10%;
+	height: 300px;
+	margin-left: 60px;
+
+}
+
+#recycletopbuttonrow,#recyclemiddlebuttonrow,#recyclebottombuttonrow {
+	background-color: white;
+	width: 75%;
+	height: 150px;
+	padding: 0px;
+
+	
+}
+a {
+
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	background-color: yellow;
+	padding: 0px 0px 0px 0px;
+	
+}
+#recycletopbuttonrow a:hover,#recyclemiddlebuttonrow a:hover,#recyclebottombuttonrow a:hover,
+ {
+	background-color: blue;
+}
+a:active{
+	background-color: red;
+
+}
+
+
+section {
+
+	height:800px;
+	width:100%;
+	padding: 0px;
+	
+}
+

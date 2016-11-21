@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDX Recycler</title>
+<link href="_css/recycler.css" rel="stylesheet" type="text/css">
+<link href="_css/jquery.mobile.structure-1.3.1.min.css" rel="stylesheet">
+<link href="_css/themes/pdxrecycler.min.css" rel="stylesheet">
+<script src="_js/jquery-1.9.1.min.js"></script>
+<script src="_js/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+<!--first page-->
+<div data-role="page" id="glass" data-theme="d">
+		<div data-role="header" data-position="fixed" data-theme="e">
+   		<a href="index.html" rel="external" data-icon="back" data-transition="fade">Back</a>
+		<h1>Glass</h1>
+		<a href="index.html" rel="external" data-icon="home" data-transition="pop">Home</a>
+        </div>
+	<div data-role="content">
+			<ul data-role="listview" data-inset="true" >
+                <li data-theme="b"><h2>Glass Curbside Recyclable List</h2></li>
+                <li><a href="#recycleglass" rel="external">Glass Bottles</a></li>
+				<li><a href="#recycleglass" rel="external">Glass Jars</a></li>
+			</ul>
+    		<ul data-role="listview" data-inset="true" >
+                    <li data-theme="b"><h2>Glass Outside Recycling</h2></li>
+				<li><a href="resource.html" rel="external">Windows</a></li>
+                <li><a href="resource.html" rel="external">Glass Dishware & Drinking Glass</a></li>
+				<li><a href="resource.html" rel="external">Glass Vases</a></li>
+                <li><a href="resource.html" rel="external">Plate Glass</a></li>
+  		  	</ul>
+	</div>
+		<div data-role="footer" data-position="fixed" data-id="footer"  data-theme="e">
+			<div class="footerbuttonrow">
+			<a href="search.html" class="searchbutton" data-transition="slideup"></a>
+			<a href="calendar.html" class="calendarbutton" data-transition="slideup"></a>
+			<a href="index.html" rel="external" class="bookmarkbutton" data-transition="slideup"></a>
+			<a href="resource.html" class="mapbutton" data-transition="slideup"></a>
+			</div>
+		</div>
+</div>
+    <!--second page-->
+<div data-role="page" id="recycleglass" data-theme="d">
+		<div data-role="header" data-position="fixed" data-theme="e">
+			<a href="glass.html" data-icon="back" data-transition="fade">Back</a>
+			<h1>Glass Curbside Recyclable List</h1>
+			<a href="index.html" rel="external" data-icon="home" data-transition="flip">Home</a>
+        </div>
+	<div data-role="content">
+			<h3><strong>Recycle glass by using a separate container. Never mix glass with paper, plastic or metal recyclables.</strong></h3>
+		<div class="itemstyle">
+			<img src="_images/recycleglass.jpg" alt="recycleglass" />
+			<p>Use a separate bin for glass when you set out your curbside recycling. Use a plastic bucket or other non-paper container that will hold up in the rain. If you live in an apartment, condominium or other multi-family housing, a separate container for glass will be provided. Glass mixed with other items breaks and can contaminate paper, plastics and other recyclables making them more difficult, costly or impossible to recycle. In addition, broken glass can damage recycling equipment at paper mills. Please remove lids and rinse containers. Metal lids can be recycled with other metals in your commingled recycling roll cart or container. Lids are not allowed in the glass bin.</p>
+		</div>
+	</div>
+		<div data-role="footer" data-position="fixed" data-id="footer"  data-theme="e">
+			<div class="footerbuttonrow">
+			<a href="index.html" rel="external" class="searchbutton" data-transition="sildeup"></a>
+			<a href="index.html" rel="external" class="calendarbutton" data-transition="sildeup"></a>
+			<a href="index.html" rel="external" class="bookmarkbutton" data-transition="sildeup"></a>
+			<a href="index.html" rel="external" class="mapbutton" data-transition="sildeup"></a>
+			</div>
+		</div>
+</div>
+</body>
+</html>

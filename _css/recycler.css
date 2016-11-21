@@ -1,0 +1,506 @@
+body {
+	font-size: 16px;
+	font-style:normal;
+	font-family:"Arial Black", Gadget, sans-serif;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	height: 100%;
+	background-color:#70C24B;
+
+}
+.titlehead {
+    background:url(../_images/header.png) no-repeat;
+	background-color: #b6b4df;
+	background-position:left;
+    height: 150px;
+}
+section {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+
+	color: black;
+	font-variant:small-caps;
+
+	height: 100%;
+
+	}
+td {
+
+	text-align: left;
+
+	}
+.labelstyle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+/*##################### Navigation Buttons #####################*/
+nav {
+	background-color: black;
+	width: 100%;
+	height: 26px;
+}
+
+
+#recycleNav {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 87.5%;
+	height: 26px;
+	text-decoration: none;
+	
+
+}
+#recycleNavButtons {
+	display: inline-block;
+	height: 24px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	
+}
+a.aboutbutton {
+	float: right;
+	display: inline-block;
+	width: 50px;
+	height: 24px;
+	margin: 1px 20px 1px 20px;
+	background-image: url(../_images/about.png);
+	background-repeat:no-repeat;
+	
+	
+}
+
+a.aboutbutton:hover {
+	background-position: center bottom;
+}
+a.backbutton {
+	float: left;
+	display: inline-block;
+	width: 50px;
+	height: 24px;
+	margin: 1px 20px 1px 20px;
+	background-image: url(../_images/back.png);
+	background-repeat:no-repeat;
+	
+	
+}
+
+a.backbutton:hover {
+	background-position: center bottom;
+}
+
+a.homebutton {
+	float: right;
+	display: inline-block;
+	width: 42px;
+	height: 24px;
+	margin: 1px 20px 1px 20px;
+	background-image: url(../_images/home.png);
+	background-repeat:no-repeat;
+	
+}
+
+a.homebutton:hover {
+	background-position: center bottom;
+}
+
+/*##################### Search Field 
+#textField {
+    background:url(../_images/searchicon.png) no-repeat;
+	background-position: left;
+	padding: 0px 0px 0px 5px;
+	
+}
+
+#recyclerSearch {
+	alignment-baseline:baseline;
+	padding: 10px 3px 3px;
+}
+#search{
+	margin-left:auto;
+	margin-right:auto;
+	width: 57%;
+	height: 28px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #8e8e8e;
+	background-color: #f5f5f5;
+	color: #4a4a4a;
+	}
+
+#search input.searchbox{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #8e8e8e;
+	background-color: #f5f5f5;
+	height: 28px;
+	color: #4a4a4a;
+	}
+
+#datasearch {
+	border-radius: 5px;
+}
+#####################*/
+		.ui-autocomplete{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		text-align:left;
+	}
+
+/*##################### Recycle Buttons #####################*/
+
+#recyclebuttons {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+#recycletopbuttonrow {
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding: 0px;
+	
+}
+#recyclemiddlebuttonrow {
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	height: 60px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+#recyclebottombuttonrow {
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	height: 60px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+a.paperbutton {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 5px 5px 5px 0px;
+	background-image: url(../_images/paper.png);
+	background-repeat:no-repeat;
+	
+}
+
+a.paperbutton:hover {
+	background-position: center bottom;
+}
+a.paperbutton:active{
+	background-image: url(../_images/paperdown.png);
+
+}
+a.plasticbutton {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 5px 5px 5px 0px;
+	background-image: url(../_images/plastic.png);
+	background-repeat:no-repeat;
+
+}
+
+a.plasticbutton:hover {
+	background-position: center bottom;
+}
+a.plasticbutton:active{
+	background-image: url(../_images/plasticdown.png);
+}
+a.metalbutton {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 5px 5px 5px 0px;
+	background-image: url(../_images/metal.png);
+
+}
+
+a.metalbutton:hover {
+	background-position: center bottom;
+}
+
+a.metalbutton:active{
+	background-image: url(../_images/metaldown.png);
+}
+	
+a.glassbutton {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 5px 5px 5px 0px;
+	background-image:url(../_images/glass.png);
+	
+}
+
+a.glassbutton:hover {
+	background-position: center bottom;
+}
+a.glassbutton:active{
+	background-image: url(../_images/glassdown.png);
+}
+a.compostbutton{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 5px 5px 5px 0px;
+	background-image: url(../_images/compost.png);
+}
+
+a.compostbutton:hover {
+	background-position: center bottom;
+}
+a.compostbutton:active{
+	background-image: url(../_images/compostdown.png)
+}
+a.trashbutton {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 5px 5px 5px 0px;
+	background-image: url(../_images/trash.png);
+
+}
+
+a.trashbutton:hover {
+	background-position: center bottom;
+}
+a.trashbutton:active{
+	background-image: url(../_images/trashdown.png);
+}
+
+/*##################### Category Content Pages ###############
+#categoryContent {
+	width: 85%;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#categoryContent ul{
+
+	list-style: none;
+	margin: 5px 5px 5px 5px;
+	padding: 0px 0px 0px 0px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px 2px #ccc;	
+	background-color: white;
+	
+}
+
+
+#categoryContent ul li {
+	width: 100%;
+	height: 100%;
+	margin: 5px 0px 5px 0px;
+	padding: 0px 0px 0px 2px;
+	text-align: left;
+	border-bottom: 1px solid #B6CCD2;
+	list-style: none;
+
+}
+#categoryContent ul li.firstRecycle {
+	background-color:#336699;
+	padding-top: 5px;
+	border-radius: 5px 5px 0px 0px;
+
+}
+#categoryContent ul li.firstCompost {
+	background-color:#6c6;
+	padding-top: 5px;
+	border-radius:5px 5px 0px 0px;
+
+}
+#categoryContent ul li.firstGlass {
+	background-color:#ffcc33;
+	padding-top: 5px;
+	border-radius: 5px 5px 0px 0px;
+
+}
+#categoryContent ul li.last {
+	border-bottom: none;
+}
+
+#categoryContent ul li span {
+	background: url(../_images/listArrow-2.png) center right no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	display: block;
+	color: #666;
+
+}
+#categoryContent ul li:hover {
+background-image: linear-gradient(bottom, rgb(255,255,255) 30%, rgb(150,150,150) 90%);
+background-image: -o-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(150,150,150) 90%);
+background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(150,150,150) 90%);
+background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(150,150,150) 90%);
+background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 30%, rgb(150,150,150) 90%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.30, rgb(255,255,255)),
+	color-stop(0.90, rgb(150,150,150))
+);
+
+}
+#categoryContent ul li:active{
+	background-image: linear-gradient(bottom, rgb(153,153,153) 10%, rgb(255,255,255) 85%);
+background-image: -o-linear-gradient(bottom, rgb(153,153,153) 10%, rgb(255,255,255) 85%);
+background-image: -moz-linear-gradient(bottom, rgb(153,153,153) 10%, rgb(255,255,255) 85%);
+background-image: -webkit-linear-gradient(bottom, rgb(153,153,153) 10%, rgb(255,255,255) 85%);
+background-image: -ms-linear-gradient(bottom, rgb(153,153,153) 10%, rgb(255,255,255) 85%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.10, rgb(153,153,153)),
+	color-stop(0.85, rgb(255,255,255))
+);
+}
+######*/
+.moreinfo {
+	text-decoration: none;
+}
+
+#info {
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.itemstyle{
+	width: 85%;
+	min-height: 150px;
+	max-height: 350px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px 2px #ccc;
+	text-align: left;
+	font-size:14px;
+	
+}
+.itemstyle img{
+	float:left;
+	margin: 10px 15px 20px 20px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px 2px #ccc;
+	background-color: white;
+	
+}
+
+	
+
+/*##################### Footer Navigation #####################*/
+
+footer {
+	display: block;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+
+.footerbuttonrow {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 90%;
+	height: 32px;
+
+}
+a.searchbutton {
+	display: inline-block;
+	width: 44px;
+	height: 32px;
+	margin: 0px 5px;
+	background-image: url(../_images/search.png);
+}
+a.searchbutton:hover {
+	background-position: center bottom;
+}
+a.calendarbutton {
+	display: inline-block;
+	width: 44px;
+	height: 32px;
+	margin: 0px 5px;
+	background-image: url(../_images/calendar.png);
+}
+a.calendarbutton:hover {
+	background-position: center bottom;
+}
+a.bookmarkbutton {
+	display: inline-block;
+	width: 44px;
+	height: 32px;
+	margin: 0px 5px;
+	background-image: url(../_images/bookmark.png);
+}
+a.bookmarkbutton:hover {
+	background-position: center bottom;
+}
+a.settingsbutton {
+	display: inline-block;
+	width: 44px;
+	height: 32px;
+	margin: 0px 5px;
+	background-image: url(../_images/settings.png);
+}
+a.settingsbutton:hover {
+	background-position: center bottom;
+}
+a.mapbutton {
+	display: inline-block;
+	width: 44px;
+	height: 32px;
+	margin: 0px 5px;
+	background-image: url(../_images/map.png);
+}
+a.mapbutton:hover {
+	background-position: center bottom;
+}
+/* Responsive to Device*/
+@media screen and (min-width: 481px) {
+
+
+}
+@media screen and (max-width: 480px) {
+.titlehead {
+		background: url(../_images/mobileheader.png) no-repeat;
+    	height: 150px;
+		background-color: #b6b4df;
+
+}
+#infopage {
+	display: none;
+  }  
+#outsideresource {
+	display: none;
+  }  
+}

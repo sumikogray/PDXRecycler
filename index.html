@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDX Recycler</title>
+<link href="_css/jquery-ui-1.10.2.custom.min.css" rel="stylesheet">
+<link href="_css/recycler.css" rel="stylesheet" type="text/css">
+<link href="_css/themes/pdxrecycler.min.css" rel="stylesheet">
+<link href="_css/jquery.mobile.structure-1.3.1.min.css" rel="stylesheet">
+<script src="_js/jquery-1.9.1.min.js"></script>
+<script src="_js/jquery.mobile-1.3.1.min.js"></script>
+<script src="_js/jquery-ui-1.10.2.custom.min.js"></script>
+<script>
+
+    $(document).ready(function() {
+	var	data = [
+	
+	{
+	            "label":"Newspaper", 
+	            "url":"paper.html#newspaper" 
+            },
+            {
+	            "label":"Corrugated Cardboard", 
+	            "url":"paper.html#cardboard"
+            },
+						{
+	            "label":"Magazines and Catalogs", 
+	            "url":"paper.html#magazines" 
+            },
+						{
+	            "label":"Phone Books", 
+	            "url":"paper.html#phonebooks" 
+            },
+            {
+	            "label":"Junk Mail", 
+	            "url":"paper.html#junkmail"
+            },
+						{
+	            "label":"Paper bags", 
+	            "url":"paper.html#paperbags" 
+            },
+						{
+	            "label":"Cereal Boxes", 
+	            "url":"paper.html#cereal"
+            },
+            {
+	            "label":"Wrapping Paper", 
+	            "url":"paper.html#wrapping"
+            },
+						{
+	            "label":"Envelopes", 
+	            "url":"paper.html#envelopes"
+            },
+						{
+	            "label":"Can labels", 
+	            "url":"paper.html#labels"
+            },
+						{
+	            "label":"Toliet & paper towel cores", 
+	            "url":"paper.html#cores" 
+            },
+						{
+	            "label":"Construction paper", 
+	            "url":"paper.html#contruction" 
+            },
+						{
+	            "label":"Egg cartons", 
+	            "url":"paper.html#eggcartons"
+            },
+            {
+	            "label":"Milk Cartons", 
+	            "url":"paper.html#cartons"
+            },
+
+			{
+				"label":"Plastic Bottles",
+				"url":"plastic.html#plasticbottles"
+			},
+			{
+				"label":"Plastic Tubs",
+				"url":"plastic.html#plastictubs"
+			},
+			{
+				"label":"Planting/Nursery Pots",
+				"url":"plastic.html#plantingpots"
+			},
+			{
+				"label":"Plastic Buckets",
+				"url":"plastic.html#plasticbuckets"
+			},
+			{
+				"label":"Glass Bottles",
+				"url":"glass.html#recycleglass"
+			},
+			{
+				"label":"Glass Jars",
+				"url":"glass.html#recycleglass"
+			},
+			{
+				"label":"Steal & Aluminum Cans",
+				"url":"metal.html#cans"
+			},
+			{
+				"label" :"Small Metal",
+				"url" : "metal.html#smallmetal" 
+			},
+			{
+				"label" :"Aluminum Foil",
+				"url" : "metal.html#aluminumfoil"
+			},
+ 			{
+				"label" :"Metal Free From All Other Materials",
+				"url" : "metal.html#metalfreefrom"
+			},
+			{
+				"label" :"Large Metal",
+				"url" : "metal.html#largemetal"
+			},
+			{
+				"label" :"Areresol Cans",
+				"url" : "metal.html#arersolcan"
+			},
+			{
+				"label":"Branches",
+				"url" :"compost.html#compostbin" 
+			},
+			{
+				"label" :"Cut Flowers",
+				"url" :"compost.html#compostbin" 
+			},
+			{
+				"label" :"Fruit",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Grass",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Houseplants",
+				"url" :"compost.html#compostbin" 
+			},
+			{
+				"label" :"Leaves",
+				"url" :"compost.html#compostbin"
+			},				
+			{
+				"label" :"Pumpkins",
+				"url" :"compost.html#compostbin" 
+			},
+			{
+				"label" :"Vegetables",
+				"url" :"compost.html#compostbin" 
+			},
+			{
+				"label" :"Vines",
+				"url" :"compost.html#compostbin" 
+			},
+			{
+				"label" :"Weeds",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Paper Napkins",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Paper Towels",
+				"url" :"compost.html#compostbin" 
+			},
+			{
+				"label" :"Food",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Egg Shells",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Bones",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Coffee Grounds",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Coffee Filters",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Tea Bags",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Pizza Delivery Boxes",
+				"url" :"compost.html#compostbin"
+			},
+			{
+				"label" :"Dirt",
+				"url" :"resource.html"
+			},
+			{
+				"label" :"Mixed Dirt",
+				"url" :"resource.html" 
+			},
+			{
+				"label" :"Plant salvage",
+				"url" :"resource.html" 
+			},
+			{
+				"label" :"Rock",
+				"url" :"resource.html"
+			},
+			{
+				"label" :"Rubble",
+				"url" :"resource.html"
+			},
+			{
+				"label" :"Sand",
+				"url" :"resource.html"
+			},
+			{
+				"label" :"Sawdust",
+				"url" :"resource.html" 
+			},
+			{
+				"label" :"Wood",
+				"url" :"resource.html" 
+}
+
+];
+  
+       $( "#search" ).autocomplete(
+        {
+            source: data,
+            select: function( event, ui ){
+                $( "#search" ).val( ui.item.label);
+				window.location.replace(ui.item.url);
+                return false;
+            }
+
+        })
+    
+    });
+	
+    </script>
+</head>
+<body>
+
+<div data-role="page" id="home" data-theme="d">
+	<div data-role="header" data-position="fixed" data-id="header" data-theme="e">
+      <h1>PDX Recycler</h1>
+    <a href="about.html" data-icon="gear" data-rel="dialog" class="ui-btn-right" data-theme="e">About</a>
+    </div>
+<div class="titlehead"></div>
+<div data-role="content">
+	<div data-role="fieldcontainer">
+
+		<label for="search"></label>
+		<input type="search" name="search" id="search" placeholder="Search">
+        <div id="fill"></div>
+	</div>
+	<div id="recyclebuttons"> 
+    	<div id="recycletopbuttonrow">
+ 			<a href="paper.html" class="paperbutton" data-transition="fade" rel="external"></a>
+			<a href="plastic.html" class="plasticbutton" data-transition="fade" rel="external"></a>
+        </div>
+     	<div  id="recyclemiddlebuttonrow">   
+        	<a href="metal.html" class="metalbutton" data-transition="fade" rel="external"></a>
+			<a href="glass.html" class="glassbutton" data-transition="fade" rel="external"></a>
+     	</div>
+     	<div  id="recyclebottombuttonrow">
+			<a href="compost.html" class="compostbutton" data-transition="fade" rel="external"></a>
+        	<a href="outside.html" class="trashbutton" data-transition="fade" rel="external"></a>
+     	</div>
+	</div>
+        <div data-role="footer" data-position="fixed" data-id="footer"  data-theme="e">
+		<div class="footerbuttonrow">
+			<a href="search.html" class="searchbutton" data-transition="slideup" rel="external"></a>
+			<a href="calendar.html" class="calendarbutton" data-transition="slideup" rel="external"></a>
+			<a href="index.html" rel="external" class="bookmarkbutton" data-transition="slideup rel="external""></a>
+			<a href="resource.html" class="mapbutton" data-transition="slideup" rel="external"></a>
+		</div>
+		</div>
+		</div>
+        </div>
+
+</body>
+</html>
